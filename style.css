@@ -9,21 +9,34 @@
   }
 
 }
-@media( max-width:1000px){
+@media( max-width:1000px) and (min-width:750px){
   #samplediv{
-    background-color: orange;
+    background-color: peru;
   }
   
 }
 @media( max-width:750px) and  (min-width:500px) {
   #samplediv{
+    width: 200px;
     background-color: mediumvioletred;
   }
   
 }
 @media( max-width:500px){
   #samplediv{
+    width: 100px;
   background-color: darkgreen;
   }
   
+}
+/* for mobile devices */
+@media (min-width:720p) and (orientation:landscape){
+
+}
+/* For devices which don't support colour */
+@media (not (color)){
+  #samplediv{
+    background-color: grey;
+  }
+
 }
