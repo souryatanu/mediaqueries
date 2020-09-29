@@ -3,7 +3,7 @@
   width: 300px;
   background-color: indianred;
 }
-@media( max-width:1500px){
+@media( max-width:1500px) and (min-width:1000px)  {
   #samplediv{
     background-color: darkcyan;
   }
@@ -15,7 +15,7 @@
   }
   
 }
-@media( max-width:750px){
+@media( max-width:750px) and  (min-width:500px) {
   #samplediv{
     background-color: mediumvioletred;
   }
